@@ -1,14 +1,21 @@
 import React from "react";
 
 const Cards=(props)=>{
+    let badgeText
+if(props.openSpots===0){
+        badgeText="SOLD OUT"
+    } else if(props.location==="Online"){
+        badgeText="ONLINE"
+    }
     return(
-        <div>
+        <div className="card">
+            {badgeText && <div className="card--badge">{badgeText}</div>}
             <img src={props.img} alt="card image" className="card--img"/>
             <div className="card--stats">
                 <img src="star.png" alt="star" className="card--star"/>
-                <span>{props.rating}</span>
+                <span>{props.stats.rating}</span>
                 <span className="gray">
-                    ({ props.reviewCount })    
+                    ({ props.stats.reviewCount })    
                 </span>
                 <span className="gray"> { props.location }</span>
             </div>

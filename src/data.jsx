@@ -10,7 +10,7 @@ export default [
             reviewCount: 6
         },
         location: "Online",
-        openSpots: 0,
+        openSpots: 10,
     },
     {
         id: 2,
@@ -23,7 +23,7 @@ export default [
             reviewCount: 30
         },
         location: "New Zealand",
-        openSpots: 27,
+        openSpots: 0,
     },
     {
         id: 3,
