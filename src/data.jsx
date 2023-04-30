@@ -37,5 +37,44 @@ export default [
         },
         location: "Norway",
         openSpots: 3,
+    },
+    {
+        id: 3,
+        title: "Learn Biking",
+        description: "Experience the landscape and meet new friends all while riding your bike. (Bike provided!)",
+        price: 30,
+        img: "biking.jpg",
+        stats: {
+            rating: 4.7,
+            reviewCount: 2
+        },
+        location: "Texas",
+        openSpots: 6,
+    },
+    {
+        id: 3,
+        title: "Hoteling",
+        description: "Enjoy wuth your Friends and family in the most luxurious and resonable hotel",
+        price: 100,
+        img: "hotel.jpg",
+        stats: {
+            rating: 4.9,
+            reviewCount: 2
+        },
+        location: "Los Angeles",
+        openSpots: 8,
+    },
+    {
+        id: 3,
+        title: "Learn Hiking",
+        description: "Experience the beautiful landscape and meet new friends all while hiking.",
+        price: 300,
+        img: "hiking.jpeg",
+        stats: {
+            rating: 5.0,
+            reviewCount: 2
+        },
+        location: "Switzaerland",
+        openSpots: 0,
     }
 ]
