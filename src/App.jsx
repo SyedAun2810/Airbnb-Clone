@@ -7,7 +7,8 @@ import data from "./data";
 const App=()=>{
     const cards=data.map(item=>{
         return(
-            <Cards 
+            <Cards
+                key={item.id} 
                 img={item.img}
                 rating={item.stats.rating}
                 reviewCount={item.stats.reviewCount}
@@ -21,7 +22,9 @@ const App=()=>{
         <div>
             <Navbar />
             <Gridd />
-            {cards}
+            <section className="cards--list">
+                {cards}
+            </section>
         </div>
     )
 }

@@ -3,7 +3,7 @@ import React from "react";
 const Cards=(props)=>{
     return(
         <div>
-            <img src={props.img} alt="katie-zaferes" className="card--img"/>
+            <img src={props.img} alt="card image" className="card--img"/>
             <div className="card--stats">
                 <img src="star.png" alt="star" className="card--star"/>
                 <span>{props.rating}</span>

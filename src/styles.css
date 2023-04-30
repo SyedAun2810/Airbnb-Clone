@@ -39,13 +39,28 @@ section{
 .nav--logo{
     max-width: 100px;
 }
+.cards--list{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: scroll;
+}
+
 .card{
     width: 175px;
     font-size: 12px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 .card--img{
     width: 100%;
     border-radius: 9px;
+    margin-bottom: 9px; 
+}
+.card--title{
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .card--star{
     height:14px;
@@ -53,4 +68,7 @@ section{
 .card--stats{
     display:flex;
     align-items: center;
+}
+.card--price{
+    margin-top: auto;
 }
