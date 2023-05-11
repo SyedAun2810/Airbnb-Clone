@@ -15,6 +15,7 @@ const App=()=>{
     })
     return(
         <div>
+            <h1>hello</h1>
             <Navbar />
             <Gridd />
             <section className="cards--list">
